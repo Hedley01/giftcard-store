@@ -3,11 +3,39 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1751305627045,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1751331377032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+body{\r\n+    background-color: black;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1751338359370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+.page-title{\r\n+    text-align: center;\r\n+    color: #333;\r\n+    margin-top: 2rem;\r\n+    font-size: 2rem;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1751338463313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+.page-title{\r\n+    text-align: center;\r\n+    color: #333;\r\n+    margin-top: 2rem;\r\n+    font-size: 2rem;\r\n+}\r\n+\r\n+.grid-container{\r\n+    display: grid;\r\n+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));\r\n+    gap:1.5rem;\r\n+    padding: 2rem;\r\n+    max-width: 1000px;\r\n+    margin: 0 auto;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1751338500128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,38 @@\n+.page-title{\r\n+    text-align: center;\r\n+    color: #333;\r\n+    margin-top: 2rem;\r\n+    font-size: 2rem;\r\n+}\r\n+\r\n+.grid-container{\r\n+    display: grid;\r\n+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));\r\n+    gap:1.5rem;\r\n+    padding: 2rem;\r\n+    max-width: 1000px;\r\n+    margin: 0 auto;\r\n+}\r\n+.card {\r\n+  background-color: #f8f8f8;\r\n+  border-radius: 12px;\r\n+  padding: 1rem;\r\n+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);\r\n+  text-align: center;\r\n+}\r\n+\r\n+.card img {\r\n+  max-width: 100%;\r\n+  height: auto;\r\n+  border-radius: 8px;\r\n+}\r\n+\r\n+.card h2 {\r\n+  font-size: 1.2rem;\r\n+  margin: 0.5rem 0;\r\n+}\r\n+\r\n+.card p {\r\n+  color: #555;\r\n+  margin: 0;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1751338602755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n+body{\r\n+    background-color: lightslategray;\r\n+}\r\n+\r\n .page-title{\r\n     text-align: center;\r\n     color: #333;\r\n     margin-top: 2rem;\r\n@@ -34,29 +38,5 @@\n \r\n .card p {\r\n   color: #555;\r\n   margin: 0;\r\n-}\n-.page-title{\r\n-    text-align: center;\r\n-    color: #333;\r\n-    margin-top: 2rem;\r\n-    font-size: 2rem;\r\n-}\r\n-\r\n-.grid-container{\r\n-    display: grid;\r\n-    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));\r\n-    gap:1.5rem;\r\n-    padding: 2rem;\r\n-    max-width: 1000px;\r\n-    margin: 0 auto;\r\n-}\n-.page-title{\r\n-    text-align: center;\r\n-    color: #333;\r\n-    margin-top: 2rem;\r\n-    font-size: 2rem;\r\n-}\n-body{\r\n-    background-color: black;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1751338738892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,6 @@\n-body{\r\n-    background-color: lightslategray;\r\n-}\r\n \r\n+\r\n .page-title{\r\n     text-align: center;\r\n     color: #333;\r\n     margin-top: 2rem;\r\n"
+                },
+                {
+                    "date": 1751340770687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n+body{\r\n+    background-color: lightslategray;\r\n+}\r\n \r\n-\r\n .page-title{\r\n     text-align: center;\r\n     color: #333;\r\n     margin-top: 2rem;\r\n"
                 }
             ],
             "date": 1751305627045,

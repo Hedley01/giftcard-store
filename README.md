@@ -15,3 +15,8 @@ This version is going to be a simple vanilla JS web app to display gift card pro
 - HTML
 - CSS
 - JavaScript
+
+## Updates 6/30/2025
+
+Putting the project on hold (even though I just started...) to learn Node.js and Express.js.
+Having knowledge on JS, I thought I was enough to start something... But some implementations require that backend knowledge (importing my giftcard images from the folder directly to an array without having to hardcode)

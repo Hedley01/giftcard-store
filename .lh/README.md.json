@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1751305423857,
@@ -12,6 +12,10 @@
                 {
                     "date": 1751305435531,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # giftcard-store\n \n Website for Instagram Store.\n \n-This version is going to be a simple vanilla JS web app to display gift card products and accept orders via online bank transfer\n+This version is going to be a simple vanilla JS web app to display gift card products and accept orders via online bank transfer.\n \n ## Features\n \n - View available gift cards\n"
+                },
+                {
+                    "date": 1751340984210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,4 +14,9 @@\n \n - HTML\n - CSS\n - JavaScript\n+\n+\n+## Updates 6/30/2025\n+Putting the project on hold (even though I just started...) to learn Node.js and Express.js.\n+Having knowledge on JS, I thought I was enough to start something... But some implementations require that backend knowledge (importing my giftcard images from the folder directly to an array without having to hardcode)\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1751305423857,

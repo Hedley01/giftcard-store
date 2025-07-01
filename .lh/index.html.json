@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1751302107258,
@@ -12,6 +12,34 @@
                 {
                     "date": 1751305640754,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <!DOCTYPE html>\r\n <html lang=\"en\">\r\n     <head>\r\n-\r\n+        \r\n     </head>\r\n     <body>\r\n-        \r\n+\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1751330254826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n <!DOCTYPE html>\r\n <html lang=\"en\">\r\n     <head>\r\n-        \r\n+        <meta charset=\"UTF-8\">\r\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     </head>\r\n     <body>\r\n \r\n     </body>\r\n"
+                },
+                {
+                    "date": 1751330322689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n+    <head>\r\n+        <meta charset=\"UTF-8\">\r\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+        <title>GiftCardsTT</title>\r\n+    </head>\r\n+    <body>\r\n+\r\n+    </body>\r\n+</html>\r\n"
+                },
+                {
+                    "date": 1751338318600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n+    <head>\r\n+        <meta charset=\"UTF-8\">\r\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+        <title>GiftCardsTT</title>\r\n+    </head>\r\n+    <body>\r\n+        <h1 class=\"page-title\">Available Gift Cards</h1>\r\n+        <div class=\"grid-container\" id=\"products-grid\">\r\n+            <!-- Cards will be injected here via JS-->\r\n+        </div>\r\n+    </body>\r\n+</html>\r\n"
+                },
+                {
+                    "date": 1751338477950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,31 +5,10 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n         <title>GiftCardsTT</title>\r\n     </head>\r\n     <body>\r\n-        <h1 class=\"page-title\">Available Gift Cards</h1>\r\n+        <h1 class=\"page-title\">TEST Available Gift Cards</h1>\r\n         <div class=\"grid-container\" id=\"products-grid\">\r\n             <!-- Cards will be injected here via JS-->\r\n         </div>\r\n     </body>\r\n </html>\r\n-<!DOCTYPE html>\r\n-<html lang=\"en\">\r\n-    <head>\r\n-        <meta charset=\"UTF-8\">\r\n-        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n-        <title>GiftCardsTT</title>\r\n-    </head>\r\n-    <body>\r\n-\r\n-    </body>\r\n-</html>\r\n-<!DOCTYPE html>\r\n-<html lang=\"en\">\r\n-    <head>\r\n-        <meta charset=\"UTF-8\">\r\n-        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n-    </head>\r\n-    <body>\r\n-\r\n-    </body>\r\n-</html>\r\n"
+                },
+                {
+                    "date": 1751338604809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n         <title>GiftCardsTT</title>\r\n     </head>\r\n     <body>\r\n-        <h1 class=\"page-title\">TEST Available Gift Cards</h1>\r\n+        <h1 class=\"page-title\">Available Gift Cards</h1>\r\n         <div class=\"grid-container\" id=\"products-grid\">\r\n             <!-- Cards will be injected here via JS-->\r\n         </div>\r\n     </body>\r\n"
+                },
+                {
+                    "date": 1751338732009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n <html lang=\"en\">\r\n     <head>\r\n         <meta charset=\"UTF-8\">\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+        <link rel=\"stylesheet\" href=\"styles.css\"/>\r\n         <title>GiftCardsTT</title>\r\n     </head>\r\n     <body>\r\n         <h1 class=\"page-title\">Available Gift Cards</h1>\r\n"
+                },
+                {
+                    "date": 1751338818925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,7 @@\n         <h1 class=\"page-title\">Available Gift Cards</h1>\r\n         <div class=\"grid-container\" id=\"products-grid\">\r\n             <!-- Cards will be injected here via JS-->\r\n         </div>\r\n+    <script src=\"script.js\"></script>\r\n     </body>\r\n </html>\r\n"
                 }
             ],
             "date": 1751302107258,
